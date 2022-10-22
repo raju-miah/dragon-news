@@ -11,8 +11,8 @@ const Profile = () => {
 
     const handelSubmit = (event) => {
         event.preventDefault();
-        // console.log(name);
-        // console.log(photoURLRef.current.value)
+        console.log(name);
+        console.log(photoURLRef.current.value)
     }
 
     const handelNameChange = event => {
